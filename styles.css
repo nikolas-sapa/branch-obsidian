@@ -1,0 +1,22 @@
+.branch-tree-wrap {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 8px 0;
+}
+.branch-tree-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  font-size: 13px;
+}
+.branch-tree-prompt { font-weight: 500; flex: 1; }
+.branch-tree-meta { color: var(--text-muted); }
+.branch-tree-list { list-style: none; padding-left: 0; margin: 0; }
+.branch-tree-list ul { padding-left: 20px; margin: 4px 0; border-left: 1px solid var(--background-modifier-border); }
+.branch-tree-list li { margin: 4px 0; }
+.branch-tree-root-node { font-weight: 600; }
+.branch-tree-node { font-size: 14px; line-height: 1.5; }

@@ -1,0 +1,10 @@
+{
+  "id": "branch-ai",
+  "name": "Branch",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Embed Branch reasoning trees in your notes. Pick a session from ~/.branch/sessions and render it inline.",
+  "author": "Nikolas Sapalidis",
+  "authorUrl": "https://github.com/84yk8btb9f-prog/branch-ai",
+  "isDesktopOnly": true
+}
