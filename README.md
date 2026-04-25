@@ -30,6 +30,12 @@ Or use [BRAT](https://github.com/TfTHacker/obsidian42-brat) and add this repo UR
 - **Viewer URL** — used for "Open in viewer" link (default `http://localhost:7432`)
 - **Node truncate length** — chars per node before "…" (default 200)
 
+## Privacy
+
+This plugin reads session JSONs from your local filesystem only. Nothing is uploaded, transmitted, or shared. The "Open in viewer" link points to whatever URL you configure (default `http://localhost:7432`, your local Branch viewer).
+
+If your `Sessions directory` setting points to `~/.branch/sessions`, you're reading the same private files Branch CLI writes locally — they only become public if you explicitly run `branch share <id>` from your terminal.
+
 ## License
 
 MIT
