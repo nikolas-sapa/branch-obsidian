@@ -5,6 +5,6 @@
   "minAppVersion": "1.4.0",
   "description": "Embed Branch reasoning trees in your notes. Pick a session from ~/.branch/sessions and render it inline.",
   "author": "Nikolas Sapalidis",
-  "authorUrl": "https://github.com/84yk8btb9f-prog/branch-ai",
+  "authorUrl": "https://github.com/nikolas-sapa/branch-ai",
   "isDesktopOnly": true
 }
