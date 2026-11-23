@@ -55,6 +55,14 @@ npm test
 Tests exercise the compiled plugin with temporary session files and a small
 Obsidian host adapter. They do not install the plugin or access a real vault.
 
+## Releasing
+
+1. `npm version <patch|minor|major> --no-git-tag-version` (updates `manifest.json` and `versions.json`), commit
+2. Push a tag matching the manifest version, e.g. `git tag 0.1.1 && git push origin 0.1.1`
+3. The Release workflow runs the tests, checks the tag against `manifest.json`, and
+   creates a draft GitHub release with `main.js`, `manifest.json` and `styles.css`
+4. Review and publish the draft; BRAT and manual installs use the published assets
+
 ## License
 
 MIT
